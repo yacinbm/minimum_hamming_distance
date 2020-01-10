@@ -1,15 +1,9 @@
 /***************************************************************************************
-*    Title: Minimum Hamming Distance
+*    Title: min_hamming_dist.c
 *    Author: Yacin Belmihoub-Martel
 *    Date: 12/29/2019
-*
 *    Computes the minimum hamming distance in an array of 32 bit integers.
-***************************************************************************************/
-
-/***************************************************************************************
-*
-* Heavily inspired from https://en.wikipedia.org/wiki/Hamming_distance#Algorithm_example
-*
+*    Heavily inspired from https://en.wikipedia.org/wiki/Hamming_distance#Algorithm_example
 ***************************************************************************************/
 
 int distance_hamming(unsigned int val1, unsigned int val2)
@@ -48,6 +42,7 @@ int min_Hamming(unsigned int tab[], unsigned int tab_size)
     return min_distance;
 }
 
+// Test the function on a small array
 int main ()
 {
     unsigned int tab[7] = {10, 325, 58, 978, 74, 19, 22};
