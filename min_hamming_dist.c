@@ -6,6 +6,8 @@
 *    Heavily inspired from https://en.wikipedia.org/wiki/Hamming_distance#Algorithm_example
 ***************************************************************************************/
 
+// Idée: Paralléliser l'exécution avec des child process en appelant fork()...
+
 int distance_hamming(unsigned int val1, unsigned int val2)
 {
     int distance = 0;
